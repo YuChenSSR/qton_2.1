@@ -50,3 +50,22 @@ Current version is developed with
 ## Others
 
 Detailed manual will come in future.
+
+you can run the code in anaconda environment.
+
+```bash
+conda create -n qtonenv39 python=3.9 numpy
+conda activate qtonenv39
+```
+
+```bash
+pip install qiskit
+pip install matplotlib
+pip install pylatexenc
+pip install ipython
+```
+
+after that, you can run the "Steane Code.ipynb" code in the `qtonenv39` environment.
+
+
+

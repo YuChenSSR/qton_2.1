@@ -258,6 +258,7 @@ class _Basic_qcircuit_:
         elif self.backend == 'density_matrix':
             distribution = self.state.diagonal()
         elif self.backend == 'unitary':
+            #  distribution 是 self.state 的第一列和其共轭的乘积
             distribution = self.state[:, 0] * self.state[:, 0].conj()
         elif self.backend == 'superoperator':
             distribution = self.state.diagonal()
